@@ -1,7 +1,7 @@
 import os
 import io
 import re
-import collections
+import collections.abc
 
 class ConsistencyError(Exception):
     """ A warning that the internal consistency of the config parser has broken
