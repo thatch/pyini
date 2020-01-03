@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 - 2020/01/03 - HOTFIX collections.abc import error
+
+- Though accessing the collection interfaces via `collections.abc`, the import was `collections` alone which meant that
+abc became unaccessible in python 3.8.0.
+- Now explicitly importing `collections.abc`
+
 ## 0.1.0 - 2020/01/03 - Initial build of pyini
 
 - Implemented the base functionality of the ini config standard.
