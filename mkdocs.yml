@@ -1,9 +1,4 @@
-site_name: Better
+site_name: pyini
 theme: readthedocs
 nav:
-    - Welcome to better: 'index.md'
-    - ConfigParser: 'ConfigParser.md'
-    - Multiprocessing:
-        - better.multiprocessing.PoolManager: 'multiprocessing/PoolManager.md'
-    - Threading:
-        - better.threading.tfor: 'threading/tfor.md'
+    - Welcome to pyini: 'index.md'

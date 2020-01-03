@@ -17,7 +17,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Kieran Bacon",
     author_email="Kieran.Bacon@outlook.com",
-    url="https://github.com/Kieran-Bacon/Better",
+    url="https://github.com/Kieran-Bacon/pyini",
     packages=find_packages(),
     classifiers=[
           "Programming Language :: Python :: 3",
